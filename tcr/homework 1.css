@@ -1,0 +1,60 @@
+body{
+    background-color:rgb(186, 193, 191);
+    color: brown;
+    font-size: 25px;
+}
+.clr{clear: both;}
+.container
+{
+    margin: auto;
+    width: 80%;
+}
+.box1
+{ border: 10px solid;
+    border-radius: 10px;
+    border-color: rgb(5, 5, 4);
+    background-color: rgb(242, 247, 255);
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.box2
+{
+    border: 10px solid;
+    border-color:rgb(12, 14, 11) ;
+    background-color: rgb(219, 223, 230);
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.box3
+{
+    border: 10px solid;
+    border-color:rgb(15, 16, 14) ;
+    background-color: rgb(220, 223, 229);
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.box4
+
+    [type="submit"]{
+        background-color: #333;
+        color:white ;
+        padding: 10px 15px;
+        border: none;
+        box-shadow: 3px 3px 3px green;
+        margin-bottom: 10px;
+    }
+   
+    .box5 [type="reset"]{
+        
+        background-color: #333;
+        color:white ;
+        padding: 10px 15px;
+        border: none;
+        box-shadow: 3px 3px 3px green;
+        
+    }
+    .box4 :hover{background-color: red;
+    color: sienna;}
+    .datebox :placeholder-shown{size: 100px;
+    border: 10px 10px 10px 10px;}

@@ -1,0 +1,174 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-color: #f4f4f4f4;
+    color: #555555;
+     /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;  */
+
+    font: normal 16px Arial, Helvetica, sans-serif ;
+
+    line-height: 1.6em;
+}
+
+a{
+  text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clr
+{ clear:both}
+ 
+.box-1{
+    background-color: rgb(132, 151, 20);
+    color: white;
+
+    /* border-right: 5px brown solid;
+    border-left: 5px brown solid;
+    border-bottom: 5px brown solid;
+    border-top: 5px brown solid; */
+
+    border:5px brown solid ;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+    border:5px brown solid ;
+
+    /* padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; */
+
+    padding: 20px;
+
+    margin-top:20px;
+
+    margin: 20px;
+    margin: 20px 0;
+}
+
+.box-1 h1{
+   font-family: tahoma; 
+   font-weight: 800px;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    word-spacing: 1em;
+}
+.box-2{
+    border: 3px dotted white;
+    padding: 20px;
+    margin: 20px 0;
+    background-image:linear-gradient(190deg ,red,green,yellow,white) ;
+ /* background-image: radial-gradient(circle,red,yellow,white); */
+    /* background-image: repeating-linear-gradient(190deg ,red,yellow 7%,green ); */
+}
+.categories{
+    border: 10px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+ categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px;
+    list-style: url(/WhatsApp\ Image\ 2021-04-17\ at\ 6.25.52\ PM\ \(1\).jpeg);
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display:block;
+} 
+
+.my-form input[type="text"] .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button[type="submit"]{
+    background-color: #333;
+    color:white ;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 3px green;
+    
+}
+.button:hover{
+    background-color: red;
+    color: #fff;
+}
+.block{
+    float: left;
+    border: 1px solid #ccc;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#mainblock
+{
+    float: left;
+    width: 70%;
+
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: seagreen;
+    color: black;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.p-box
+{
+    width: 800px;
+    height: 500px;
+    border: 1px solid yellowgreen;
+    position: relative;
+}
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+.my-list li:nth-child(odd){
+    background-color: rgb(14, 3, 14);
+
+}
+.my-list li:nth-child(even){
+    background-color: violet;
+
+}

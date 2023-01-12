@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Contact Info Form</title>
+    </head>
+    <body>
+       <center> <h1>Registration form</h1></center>
+       <form>
+           <fieldset>
+            <legend><b>Name</b> </legend> <br>
+<label >First Name : <input type="text" name="First Name"></label>
+<label >Last Name : <input type="text" name="Last Name"></label>
+<p><label ><b>Roll no</b> : <input type="text" name="Roll no"></label></p>
+</fieldset>
+
+<fieldset>
+    <legend>Gender</legend>
+    <label>male : <input type="radio" name="gender" value="male"> </label>
+    <label>Female : <input type="radio" name="gender" value="Female"> </label>  
+</fieldset> <br> <br>
+
+<fieldset>
+     <legend>Hobbies</legend>
+     <label>Reading : <input type="checkbox" name="Hobbies" value="Reading"></label>
+     <label>Coding : <input type="checkbox" name="Hobbies" value="Coding"></label>
+     <label>Driving : <input type="checkbox" name="Hobbies" value="Driving"></label>
+</fieldset> <br> <br>
+<fieldset>
+    <label >College Name : <input type="text" name="College Name"></label>
+    <label >University : <input type="text" name="University"></label> <br>
+
+
+    <label for="Department">Department :   </label>
+   <select name="Department"> 
+       <option value="Electronics">ELEX</options>
+       <option value="Electronics and Telecommunications">EXTC</options>
+       <option value="Computer Science">CS</options>
+       <option value="Information and Technology">IT</options>
+       <option value="Mechanical">MECH</options>
+    </select> <br>
+</fieldset> <br> <br>
+  <fieldset>
+      <legend>Conatct Details and Address</legend>
+      <label >Email Address : <input type="email" name="Email Address"></label>
+      <label > Phone No : <input type="text" name="Phone No"></label> <br>
+      <label >Address : </label>
+      <textarea rows="3" cols="80" name="Address" id="Address"></textarea>  
+<h3>Date in dd/mm/yyyy</h3>
+    <label for="start"> Enter a Date</label>
+    <input type="date" name="Begin"
+    placeholder="dd/mm/yyyy" value=""
+    min="1996-01-01" max="2015-12-31">
+    </fieldset> <br> <br>
+    <input type="submit" name="submit">
+    <input type="reset" name="reset">
+
+
+       </form>
+
+
+
+    </body>
+</html>

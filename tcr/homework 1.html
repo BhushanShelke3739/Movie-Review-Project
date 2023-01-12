@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>HOMEWORK</title>
+        <link rel="stylesheet" type="text/css" href="homework 1.css" >
+    </head>
+    <body>
+        <div class="container">
+        <center><h1 style="background: rgb(4, 4, 2);">Vehicle Registration for ABCD Society</h1></center> <br>
+                <center><h1 style="background-color: rgb(6, 6, 5);"><img src="/download (3).jfif" alt="ABCD SOCIETY"></h1></center>
+        <form >
+            <div class="box1">
+             
+                 <legend><h3>Owner Details</h3></legend>
+                 <label><b> Full Name :</b> <input type="text" name="full name">
+                 </label>
+                 <label><b> Contact no :</b> <input type="text" name="Contact no">
+                 </label>
+                 <label><b> Aadhar Card no :</b> <input type="text" name="Aadhar card no">
+                 </label> <br>
+               <label for="wing"> <b>wing</b> </label>
+               <select name="wing" >
+                   <option value =" A wing">A</option>
+                   <option value =" B wing">B</option>
+                   <option value =" C wing">C</option>
+                   <option value =" D wing">D</option>
+
+               </select> <br> 
+               <label><b> Flat no :</b> <input type="text" name="flat no">
+               </label>
+             <br> <br>
+             </div>
+             <div class="box2">
+             
+                 <legend> <h3> Vehicle Details </h3></legend>
+                 <label><b>Two wheeler</b> : <input type="radio" name="Vehicle Details" value="two wheeler"> </label><br>
+    <label> <b>Four wheeler</b> : <input type="radio" name="Vehicle Details" value="four wheeler"> </label>  <br>
+    <label> <b>Both</b> : <input type="radio" name="Vehicle Details" value="Both"> </label> <br> 
+    <label><b> Vehicle Registration no </b> <ins>(Mention 2 or 4 wheeler beside the no)</ins> <b>:</b>
+    </label> 
+    <textarea rows="3" cols="80" name="Vehicle Registration no " id="Vehicle Registration no "></textarea>
+
+
+              <br> <br>
+              </div>
+             <div class="box3">
+                 <legend><h3>Driving License Proof</h3></legend>
+                 <label><b> Driving License no :</b> <input type="text" name="Driving License no">
+                 </label>
+                 <h3>Date of expiry of DL in dd/mm/yyyy</h3>
+    <label for="start"> </label>
+    <div class="datebox">
+    <input type="date" name="Begin"
+    placeholder="dd/mm/yyyy" value=""
+    min="2021-04-01" max="2031-12-31"></div>
+             <br> <br></div>
+             
+<div class="box4">
+            <input type="submit" name="submit">
+         </div>         
+             <div class="box5">  
+                  <input type="reset" name="reset">
+                 </div>
+
+               
+        </form>
+    </div>
+    </body>
+</html>
